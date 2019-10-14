@@ -11,6 +11,11 @@ body{
 }
 
 /*general effects*/
+/*general effects*/
+/*general effects*/
+/*general effects*/
+/*general effects*/
+
 h1{
 	font-size:3em;
 	line-height: 100%;
@@ -76,6 +81,10 @@ td{
 }
 
 /*background + scrolling effects*/
+/*background + scrolling effects*/
+/*background + scrolling effects*/
+/*background + scrolling effects*/
+/*background + scrolling effects*/
 
 .roll{
 	background: #eae5e4;
@@ -116,6 +125,10 @@ td{
 }
 
 /*Mainbody*/
+/*Mainbody*/
+/*Mainbody*/
+/*Mainbody*/
+/*Mainbody*/
 	.contain{
 		background: #eae5e4;
 		width: 96vw;
@@ -136,6 +149,12 @@ td{
 		background: url(assets/pattern.jpg) !important;
 		background-size: 100% !important;
 	}
+
+	/*project*/
+	/*project*/
+	/*project*/
+	/*project*/
+	/*project*/
 
 	.project>.prezphoto{
 		width:70%;
@@ -199,6 +218,10 @@ td{
 
 
 /*Graphic Design Photo Gallery*/
+/*Graphic Design Photo Gallery*/
+/*Graphic Design Photo Gallery*/
+/*Graphic Design Photo Gallery*/
+/*Graphic Design Photo Gallery*/
 
 	.gallery{
 		position:relative;
@@ -243,6 +266,11 @@ td{
 
 
 /*hamburger menu*/
+/*hamburger menu*/
+/*hamburger menu*/
+/*hamburger menu*/
+/*hamburger menu*/
+
 .menu{
 	position:fixed;
 	z-index:2000;
@@ -251,7 +279,7 @@ td{
 	background: url(assets/menuicon_base.png);
 	background-size: 120px;
 	background-repeat: no-repeat;
-	overflow-y: hidden;
+	overflow: hidden;
 }
 
 .menu>img{
@@ -359,6 +387,12 @@ td{
 	left:30vw;
 }
 
+/*illustration*/
+/*illustration*/
+/*illustration*/
+/*illustration*/
+/*illustration*/
+
 /* line 12, ../sass/tinyslide.scss */
 .tinyslide { overflow: hidden; }
 /* line 18, ../sass/tinyslide.scss */
@@ -393,6 +427,11 @@ td{
 /*tahoma, verdana, 宋体, SimSun, 华文细黑, STXihei, sans-serif*/
 /*responsive design*/
 
+/*about section*/
+/*about section*/
+/*about section*/
+/*about section*/
+/*about section*/
 
 .about{
 	background-image:url(assets/aboutback.png);
@@ -605,8 +644,16 @@ td{
 		margin:0;
 	}
 
+	.hamicon{
+		transform:translateY(1vh);
+	}
+
+	.close{
+		transform:translateY(1vh);
+	}
+
 	.gallery{
-		height: 100vh;
+		height: 87vh;
 	}
 
 	.contain{

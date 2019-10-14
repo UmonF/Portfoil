@@ -7,15 +7,22 @@ $(document).ready(function(){
 	$(".option>a").click(function(){
 		var anchorNumber=$(".option>a").index(this)+3;
 		var anchor = '.contain:nth-child('+anchorNumber+')';
+		var anchorOffset= $(anchor).offset().top;
 		var activeLink ='.contain:nth-child('+(anchorNumber-2)+')>p';
-		console.log(activeLink);
+		if(anchorNumber==7){
+			window.scrollTo(0,0);
+		}
+		else{
+		// console.log(activeLink);
+		window.scrollTo(0,anchorOffset);}
+		// console.log(anchorNumber);
 		// console.log(anchor);
 		// console.log($(".option>a").index(this));
-		var anchorOffset= $(anchor).offset().top;
+		
 		// console.log(anchorOffset);
 		$(".option>a>p").removeClass('activeOption');
 		$(activeLink).addClass('activeOption');
-		window.scrollTo(0,anchorOffset);
+		
 	});
 
 	$(".option>a>p").mouseleave(function(){
@@ -50,7 +57,6 @@ $(document).ready(function(){
 		$(".ham:nth-child(2)").removeClass('rotate2');
 		$(".ham:nth-child(3)").removeClass('rotate2').css('width',"30px");
 	})
-
 });
 	
 
@@ -118,6 +124,7 @@ $(document).ready(function () {
 		}
 	})
 })
+
 
 
 this.$image.on("click",function(){d.reposition()})
