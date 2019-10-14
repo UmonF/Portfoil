@@ -511,6 +511,10 @@ td{
 		font-size:1em;
 	}
 
+	.hamicon{
+		transform:translateY(.5vh);
+	}
+	
 	.project>.navi{
 		top:50%;
 	}
@@ -642,10 +646,6 @@ td{
 	p{
 		font-size:1em;
 		margin:0;
-	}
-
-	.hamicon{
-		transform:translateY(1vh);
 	}
 
 	.close{
