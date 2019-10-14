@@ -7,8 +7,10 @@ $(document).ready(function(){
 	$(".option>a").click(function(){
 		var anchorNumber=$(".option>a").index(this)+3;
 		var anchor = '.contain:nth-child('+anchorNumber+')';
-		var anchorOffset= $(anchor).offset().top;
+		var anchorOffset= $(anchor).offset().top+150;
 		var activeLink ='.contain:nth-child('+(anchorNumber-2)+')>p';
+
+
 		if(anchorNumber==7){
 			window.scrollTo(0,0);
 		}

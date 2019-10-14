@@ -137,6 +137,7 @@ td{
 		margin: 0 auto;
 		display:flex;
 		justify-content: space-around;
+		padding-top:10vh;
 	}
 
 	.pattern{
@@ -217,6 +218,10 @@ td{
   100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
 
 
+  .illustration{
+  	padding-bottom:25vh;
+  }
+
 /*Graphic Design Photo Gallery*/
 /*Graphic Design Photo Gallery*/
 /*Graphic Design Photo Gallery*/
@@ -232,8 +237,11 @@ td{
 		height:100vh;
 		width:85%;
 		overflow: scroll;
-		margin-top:25vh;
 		margin-bottom:20vh;
+	}
+
+	.gdesign{
+		padding-top:0 !important;
 	}
 	.gdesign>.gallery>div>img{
 		width:100%;
@@ -396,7 +404,7 @@ td{
 /* line 12, ../sass/tinyslide.scss */
 .tinyslide { overflow: hidden; }
 /* line 18, ../sass/tinyslide.scss */
-.navigator { position: absolute; bottom: 8em; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+.navigator { position: absolute; top:70%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 /* line 23, ../sass/tinyslide.scss */
  .navigator ul { padding: 0; }
 /* line 25, ../sass/tinyslide.scss */
@@ -437,6 +445,7 @@ td{
 	background-image:url(assets/aboutback.png);
 	background-size:100%;
 	background-repeat: no-repeat;
+	padding-top:30vh !important;
 }
 
 .skillbar{
@@ -488,7 +497,6 @@ td{
 
 	.prezphoto{
 		width:94vw;
-		padding-top: 10vh;
 	}
 }
 
@@ -514,7 +522,7 @@ td{
 	.hamicon{
 		transform:translateY(.5vh);
 	}
-	
+
 	.project>.navi{
 		top:50%;
 	}
@@ -530,21 +538,17 @@ td{
 	}
 
 	.tinyslide .navigator{
-		bottom: 1vh;
+		bottom: 30vh;
 		left: 52.5%;
 	}
 
 	.tinyslide figure figcaption{
 		bottom:10%;
 	}
-
-	.gallery>.header{
-		bottom:0;
-	}
 	
 	.header{
 		right:-5%;
-		top:0;
+		top:10%;
 		width:30vw;
 	}
 
@@ -557,6 +561,7 @@ td{
 		height:120vh;
 		left:5%;
 	}
+
 	.gallery>div>img{
 		width:40vw !important;
 		filter:none !important;
@@ -568,6 +573,11 @@ td{
 
 	.contain{
 		flex-direction: column;
+		padding-top:20vh;
+	}
+
+	.gdesign{
+		padding-top:24vh !important;
 	}
 	.about{
 		flex-direction: column-reverse !important;
@@ -577,7 +587,9 @@ td{
 
 	.about{
 		text-align: center;
+		padding-top:25vh !important;
 	}
+
 	.about>div>img{
 		height:25vh !important;
 		filter: none !important;
@@ -677,7 +689,7 @@ td{
 	}
 
 	.gdesign>.header{
-		top:-3%;
+		top:72%;
 		width:45vw;
 		transform: rotate(90deg);
 		right:10%;
@@ -721,8 +733,7 @@ td{
 	}
 
 	.tinyslide .navigator{
-		bottom: 40vh;
-		left: 52.5%;
+		top:45vh;
 	}
 
 	.tinyslide figure figcaption{
