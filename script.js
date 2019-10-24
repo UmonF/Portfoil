@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$(".option>a").click(function(){
 		var anchorNumber=$(".option>a").index(this)+3;
 		var anchor = '.contain:nth-child('+anchorNumber+')';
-		var anchorOffset= $(anchor).offset().top+150;
+		var anchorOffset= $(anchor).offset().top+.12*$(window).height();
 		var activeLink ='.contain:nth-child('+(anchorNumber-2)+')>p';
 
 

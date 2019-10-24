@@ -137,7 +137,6 @@ td{
 		margin: 0 auto;
 		display:flex;
 		justify-content: space-around;
-		padding-top:10vh;
 	}
 
 	.pattern{
@@ -573,12 +572,12 @@ td{
 
 	.contain{
 		flex-direction: column;
-		padding-top:20vh;
 	}
 
-	.gdesign{
-		padding-top:24vh !important;
+	.content{
+		padding-top:15vh !important;
 	}
+
 	.about{
 		flex-direction: column-reverse !important;
 		height:90vh!important;
@@ -683,7 +682,7 @@ td{
 
 	.illustration>.header{
 		right:-5%;
-		top:45vh !important;
+		top:50vh !important;
 		width:45vw !important;
 		opacity:1;
 	}
